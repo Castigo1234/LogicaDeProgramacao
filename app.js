@@ -12,10 +12,6 @@ alert (mensagemDeErro);
 blalblal
 dsadsa
 
-dsadsadsa
-dsadsadas
-das
-
 
 
 
