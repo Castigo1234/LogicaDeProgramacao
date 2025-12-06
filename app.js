@@ -1,19 +1,21 @@
-/* alert ("Boas vindas ao nosso site!");
-let nome = lua
-let idade = 25
-let numeroDeVendas = 25
-let saldoDisponivel = 1000
+alert ("Boas vindas ao nosso site!");
+let nome = 'lua';
+let idade = 25;
+let numeroDeVendas = 50;
+let saldoDisponivel = 1000; 
 
-alert ("Erro! Preencha todos os campos obrigatórios.");
-let = mensagemDeErro = "Erro! Preencha todos os campos obrigatórios.";
-alert (mensagemDeErro); 
-*/
+let mensagemDeErro = "Erro preencha todos os campos!";
+alert (mensagemDeErro);
+;
 
-blalblal
-dsadsa
+idade = prompt ("Qual sua Idade?");
+nome = prompt ("Qual seu Nome?");
 
+if (idade >= 18) {
+    alert ("Voce pode tirar CNH");
+}
 
-
-
-
+else {
+    alert ("voce nao pode tirar CNH");
+}
 
