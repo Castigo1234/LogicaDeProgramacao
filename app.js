@@ -1,21 +1,12 @@
-alert ("Boas vindas ao nosso site!");
-let nome = 'lua';
-let idade = 25;
-let numeroDeVendas = 50;
-let saldoDisponivel = 1000; 
+alert ("Boas Vindas ao nosso Jogo do Numero Secreto!")
+let numeroSecreto = 5;
+console.log (numeroSecreto);
+let chute = prompt ("Digite um numero entre 0 e 10:");
 
-let mensagemDeErro = "Erro preencha todos os campos!";
-alert (mensagemDeErro);
-;
-
-idade = prompt ("Qual sua Idade?");
-nome = prompt ("Qual seu Nome?");
-
-if (idade >= 18) {
-    alert ("Voce pode tirar CNH");
-}
-
+// se chute for igual ao numero secreto
+if (chute == numeroSecreto) {
+    alert (`Voce acertou! Parabens! ${numeroSecreto}` );
+} 
 else {
-    alert ("voce nao pode tirar CNH");
+    alert ("Errrouuu!")
 }
-
